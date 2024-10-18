@@ -3,13 +3,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: stretch;
-    box-sizing: border-box;
+    margin: 0;
+    /*align-items: stretch;*/
 }
 
 * {
-    border: solid 1px red;
-    margin: 6px;
+    /*border: solid 1px red;*/
 }
 
 ul {
@@ -58,6 +57,14 @@ ul {
 .small-content-text {
     font-size: 18px;
     color: #E5E7EB;
+    padding: 0px;
+}
+
+.mid-content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
@@ -70,5 +77,7 @@ button {
 h1 {
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: 900;    
+    font-weight: 900;
+    padding: 0;
+    margin: 0;  
 }
