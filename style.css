@@ -105,6 +105,23 @@ ul {
     padding: 12px 128px;
 }
 
+.signup-box {
+    padding: 64px 256px;
+}
+
+.signup-blue-box {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 42px 82px;
+    border-radius: 8px;
+}
+
+.signup-content {
+    color:#F9FAF8;
+}
+
 img {
     height: 140px;
     width: 140px;
@@ -124,6 +141,8 @@ button {
     color: #F9FAF8;
     padding: 4px 24px;
     border-radius: 4px;
+    max-height: 24px;
+    max-width: 128px;
 }
 
 h1 {
@@ -138,4 +157,9 @@ h2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
 }
